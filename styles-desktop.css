@@ -1,0 +1,39 @@
+@media (min-width: 58em) {
+    body {
+        height: 100vh;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        grid-template-areas:
+            'purpleB purpleB greyB whiteLB'
+            'whiteSB blackB blackB whiteLB';
+
+    }
+
+    .purple {
+        grid-area: purpleB;
+    }
+
+    .grey {
+        grid-area: greyB;
+    }
+
+    #whiteS {
+        grid-area: whiteSB;
+    }
+
+    #whiteL {
+        grid-area: whiteLB;
+    }
+
+    .black {
+        grid-area: blackB;
+    }
+}
