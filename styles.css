@@ -50,16 +50,31 @@ main {
 img {
     border-radius: 50%;
     float: left;
+    box-shadow: 0 0 10px hsl(0, 0%, 81%);
+    margin-right: 18px;
+    width: 36px;
 }
 
 h2 {
     color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    font-weight: 500;
 }
 
 h3 {
     color: hsla(0, 0%, 81%, 0.5);
+    font-size: 13px;
+    font-weight: 500;
 }
 
 p {
     clear: both;
+}
+
+.review {
+    color: hsl(0, 0%, 81%);
+}
+
+.quotation {
+    color: hsla(0, 0%, 81%, 0.5);
 }
